@@ -1,6 +1,6 @@
 # Boston-Housing-Prediction-with-Neural-Network
 
-This project predicts Boston housing prices using regression analysis. Preprocessing was implemented before all other processes. A neural network model with two hidden layers was used, where ReLU was applied as the activation function for the hidden layers, and a linear function was used for the output layer. The model was trained multiple times with different parameter to achieve the best performance and results.
+This project predicts Boston housing prices using Machine Learning Regression analysis. Preprocessing was implemented before all other processes. A neural network model with two hidden layers was used, where ReLU was applied as the activation function for the hidden layers, and a linear function was used for the output layer. The model was trained multiple times with different parameter to achieve the best performance and results.
 
 For evaluation, Mean Squared Error (MSE), Mean Absolute Error (MAE), and loss were chosen to assess the quality of the results. The prediction results were found to be quite close to the actual values.
 
