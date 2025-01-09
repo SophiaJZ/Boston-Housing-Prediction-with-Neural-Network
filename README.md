@@ -31,3 +31,7 @@ For evaluation, Mean Squared Error (MSE), Mean Absolute Error (MAE), and loss we
   
 ### Target (The Price)
 - MEDV: Median value of owner-occupied homes in $1000s
+
+## Acknowledgment
+- Python for Microscopists by : Sreenivas Bhattiprolu
+- https://www.kaggle.com/datasets/schirmerchad/bostonhoustingmlnd
