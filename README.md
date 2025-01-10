@@ -1,8 +1,18 @@
 # Boston-Housing-Prediction-with-Neural-Network
 
-This project predicts Boston housing prices using Machine Learning Regression analysis. Preprocessing was implemented before all other processes. A neural network model with two hidden layers was used, where ReLU was applied as the activation function for the hidden layers, and a linear function was used for the output layer. The model was trained multiple times with different parameter to achieve the best performance and results.
+Here’s an improved and polished explanation suitable for a GitHub post:
 
-For evaluation, Mean Squared Error (MSE), Mean Absolute Error (MAE), and loss were chosen to assess the quality of the results. The prediction results were found to be quite close to the actual values.
+Boston Housing Price Prediction Using Machine Learning Regression
+This project focuses on predicting Boston housing prices using Machine Learning regression analysis. The primary goal is to evaluate and compare the performance of two Machine Learning models: Neural Network and RandomForestRegressor, based on their predictive accuracy using evaluation metrics such as Mean Absolute Error (MAE) and Mean Squared Error (MSE).
+
+Models and Results:
+Neural Network:
+MAE: 2.77
+MSE: 15.17
+RandomForestRegressor:
+MAE: 2.07
+MSE: 8.11
+From the results, the RandomForestRegressor outperformed the Neural Network, achieving lower error values for both MAE and MSE. This indicates that the RandomForestRegressor is better suited for this particular dataset and problem.
 
 ## Python Libraries used
 
