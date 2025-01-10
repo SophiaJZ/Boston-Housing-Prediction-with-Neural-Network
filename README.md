@@ -12,6 +12,7 @@ Models and Results:
 - RandomForestRegressor:
 -- MAE: 2.07
 -- MSE: 8.11
+  
 From the results, the RandomForestRegressor outperformed the Neural Network, achieving lower error values for both MAE and MSE. This indicates that the RandomForestRegressor is better suited for this particular dataset and problem.
 
 ## Python Libraries used
