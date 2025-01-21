@@ -3,13 +3,13 @@ The RandomForestClassifier was chosen as it is well-suited for datasets with a m
 To evaluate the model's performance, a classification report was generated, presenting metrics such as precision, recall, F1-score, and accuracy.
 The classification report provides a detailed summary of the performance of a classification model for predicting heart disease. Here's a breakdown of the metrics and their interpretation:
 ________________________________________
-Metrics Overview:
+##Metrics Overview:
 1.	Precision: Measures the proportion of correct positive predictions out of all positive predictions. It answers, "Of the cases predicted as a specific class, how many were correct?"
 2.	Recall (Sensitivity): Measures the proportion of actual positives that were correctly predicted. It answers, "Of the actual cases in this class, how many were detected?"
 3.	F1-Score: Harmonic mean of precision and recall, providing a balance between the two.
 4.	Support: The number of true instances in each class in the dataset.
 ________________________________________
-Class-wise Analysis:
+##Class-wise Analysis:
 
 Class 0.0:
 •	Precision: 0.77 – 77% of predictions for class 0.0 are correct.
@@ -38,7 +38,7 @@ Class 4.0:
 •	Precision, Recall, F1-Score: 0.00 – The model fails entirely for this class, either due to insufficient training data or severe imbalance.
 •	Support: 10 – Very few samples likely contribute to poor results.
 
-Overall Performance:
+##Overall Performance:
 
 •	Accuracy: 0.64 – The model correctly predicts 64% of all samples.
 •	Macro Avg (Precision/Recall/F1-Score): ~0.39 – Average performance across all classes, treating each class equally. Low due to poor performance on underrepresented classes.
@@ -46,3 +46,5 @@ Overall Performance:
 •	The overall result shows that the model performs well for Class 0, followed by Class 1. However, the model demonstrates poor performance for Classes 2, 3, and 4. This outcome is impacted by the class imbalance in the dataset. The available dataset indicates that the number of heart disease diagnoses is distributed as follows: Class 0 = 411, Class 1 = 265, Class 2 = 109, Class 3 = 107, and Class 4 = 28. Larger class sizes provide more training opportunities, enabling the model to generate better results compared to smaller classes.
 •	The model’s accuracy is 0.64, meaning it correctly predicts 64% of all samples. However, for imbalanced datasets like this, accuracy is not always a reliable metric. It is better to focus on metrics such as the F1-score, especially for minority classes. For future projects, data augmentation could be used to generate additional samples for minority classes, improving the model’s generalization and performance.
 
+---------------------------------------------------------------------------------
+For the visualization, ROC curve is provided to represent the trade off between True Positive rate and False Positive rate for each class. ROC curve demonstrate how well model can distinguish between the classes. High performance for a class is indicated by an Area Under Curve (AUC) value close to 1, means the model can successfully rank the correct class higher than others for most samples.
