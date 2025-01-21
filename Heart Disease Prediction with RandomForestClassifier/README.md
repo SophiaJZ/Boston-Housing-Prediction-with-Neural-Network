@@ -3,15 +3,15 @@ The RandomForestClassifier was chosen as it is well-suited for datasets with a m
 To evaluate the model's performance, a classification report was generated, presenting metrics such as precision, recall, F1-score, and accuracy.
 The classification report provides a detailed summary of the performance of a classification model for predicting heart disease. Here's a breakdown of the metrics and their interpretation:
 ________________________________________
-Metrics Overview:
+**Metrics Overview:**
 1.	Precision: Measures the proportion of correct positive predictions out of all positive predictions. It answers, "Of the cases predicted as a specific class, how many were correct?"
 2.	Recall (Sensitivity): Measures the proportion of actual positives that were correctly predicted. It answers, "Of the actual cases in this class, how many were detected?"
 3.	F1-Score: Harmonic mean of precision and recall, providing a balance between the two.
 4.	Support: The number of true instances in each class in the dataset.
-________________________________________
-Class-wise Analysis:
 
-Class 0.0:
+**Class-wise Analysis:**
+
+##Class 0.0:##
 
 •	Precision: 0.77 – 77% of predictions for class 0.0 are correct.
 
@@ -22,7 +22,7 @@ Class 0.0:
 •	Support: 140 – A significant number of samples, contributing to the overall performance.
 
 
-Class 1.0:
+##Class 1.0:##
 
 •	Precision: 0.55 – Only 55% of predictions for class 1.0 are correct.
 
@@ -33,7 +33,7 @@ Class 1.0:
 •	Support: 93 – Moderate representation in the dataset.
 
 
-Class 2.0:
+##Class 2.0:##
 
 •	Precision: 0.35 – Low precision indicates many false positives.
 
@@ -44,7 +44,7 @@ Class 2.0:
 •	Support: 38 – Limited samples may contribute to lower model performance.
 
 
-Class 3.0:
+##Class 3.0:##
 
 •	Precision: 0.35 – Similar to class 2.0, precision is low.
 
@@ -53,7 +53,7 @@ Class 3.0:
 •	F1-Score: 0.23 – Performance is poor for this class.
 
 
-Class 4.0:
+##Class 4.0:##
 
 •	Precision, Recall, F1-Score: 0.00 – The model fails entirely for this class, either due to insufficient training data or severe imbalance.
 
@@ -61,7 +61,7 @@ Class 4.0:
 
 
 
-Overall Performance:
+**Overall Performance:**
 
 •	Accuracy: 0.64 – The model correctly predicts 64% of all samples.
 
@@ -77,7 +77,7 @@ Overall Performance:
 For the visualization, ROC curve is provided to represent the trade off between True Positive rate and False Positive rate for each class. ROC curve demonstrate how well model can distinguish between the classes. High performance for a class is indicated by an Area Under Curve (AUC) value close to 1, means the model can successfully rank the correct class higher than others for most samples.
 ------------------------------------------------------------------------------
 
-Data Descrption:
+**Data Descrption:**
 
 id (Unique id for each patient)
 
@@ -116,4 +116,5 @@ num: the predicted attribute
 
 ----------------------------------------------------
 
-Acknowledgment : link uci-heart-disease
+**Acknowledgment :** 
+link uci-heart-disease
