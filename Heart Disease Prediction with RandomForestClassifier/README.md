@@ -48,3 +48,23 @@ Overall Performance:
 
 ---------------------------------------------------------------------------------
 For the visualization, ROC curve is provided to represent the trade off between True Positive rate and False Positive rate for each class. ROC curve demonstrate how well model can distinguish between the classes. High performance for a class is indicated by an Area Under Curve (AUC) value close to 1, means the model can successfully rank the correct class higher than others for most samples.
+------------------------------------------------------------------------------=
+Data Descrption:
+
+id (Unique id for each patient)
+age (Age of the patient in years)
+origin (place of study)
+sex (Male/Female)
+cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+chol (serum cholesterol in mg/dl)
+fbs (if fasting blood sugar > 120 mg/dl)
+restecg (resting electrocardiographic results)
+-- Values: [normal, stt abnormality, lv hypertrophy]
+thalach: maximum heart rate achieved
+exang: exercise-induced angina (True/ False)
+oldpeak: ST depression induced by exercise relative to rest
+slope: the slope of the peak exercise ST segment
+ca: number of major vessels (0-3) colored by fluoroscopy
+thal: [normal; fixed defect; reversible defect]
+num: the predicted attribute
